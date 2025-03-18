@@ -1,0 +1,116 @@
+:root {
+    --color-primary: #4B69FD;
+    --color-secondary: #fff;
+    --color-text: #333;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: var(--color-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.main-content {
+    background: var(--color-secondary);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.header-banner {
+    margin-bottom: 20px;
+}
+
+.header-banner .main-title {
+    color: var(--color-primary);
+    font-size: 24px;
+}
+
+.banner-img {
+    width: 100%;
+    max-width: 200px;
+    margin-top: 10px;
+}
+
+.input-section {
+    margin-bottom: 20px;
+}
+
+.section-title {
+    font-size: 18px;
+    color: var(--color-text);
+    margin-bottom: 10px;
+}
+
+.input-wrapper {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+input {
+    padding: 8px;
+    width: 60%;
+    border: 2px solid var(--color-primary);
+    border-radius: 5px;
+    outline: none;
+}
+
+.btn {
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn:hover {
+    background-color: #3a57e8;
+}
+
+.sortear {
+    display: block;
+    margin: 20px auto;
+}
+
+.icon {
+    width: 20px;     
+    height: auto;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+/* Lista de amigos */
+.lista-amigos {
+    list-style: none;
+    padding: 10px 0;
+}
+
+.lista-amigos li {
+    background: #f1f1f1;
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* Resultado */
+.resultado {
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--color-primary);
+}
