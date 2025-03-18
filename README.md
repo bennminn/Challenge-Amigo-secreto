@@ -11,4 +11,4 @@ Esta página permite a los usuarios ingresar nombres de amigos y realizar un sor
 
 ## Capturas de Pantalla
 
-![Texto alternativo](Alura-Main/Photos/imagen.png)
+![Texto alternativo](Alura-main/Photos/imagen.png)
